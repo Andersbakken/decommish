@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "mkdir -p ./node_modules/.bin/ && ! test -L ./node_modules/.bin/decommish && ln -s ./index.js ./node_modules/.bin/decommish"
+    "postinstall": "mkdir -p ../node_modules/.bin/ && ! test -L ../node_modules/.bin/decommish && ln -s ./index.js ../node_modules/.bin/decommish"
   },
   "author": "",
   "license": "ISC",
