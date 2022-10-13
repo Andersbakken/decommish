@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p ./node_modules/.bin/ && ! test -L ./node_modules/.bin/decommish && ln -s ./index.js ./node_modules/.bin/decommish"
   },
   "author": "",
   "license": "ISC",
