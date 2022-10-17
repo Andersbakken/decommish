@@ -2,9 +2,10 @@
   "name": "decommish",
   "version": "4.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
+  "module": "./index.js",
+  "type": "module",
   "scripts": {
-    "postinstall": "mkdir -p ../node_modules/.bin/ && ! test -L ../node_modules/.bin/decommish && ln -s ./index.js ../node_modules/.bin/decommish"
   },
   "author": "",
   "license": "ISC",
