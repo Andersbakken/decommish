@@ -1,12 +1,11 @@
 {
   "name": "decommish",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "",
   "main": "./index.js",
   "module": "./index.js",
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
