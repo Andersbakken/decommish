@@ -12,5 +12,8 @@
     "decomment": "^0.9.5",
     "i": "^0.3.7",
     "npm": "^8.19.2"
+  },
+  "bin": {
+    "decommish": "./index.js"
   }
 }
